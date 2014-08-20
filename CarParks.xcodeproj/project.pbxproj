@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4960A30619A4C3AE00D9B574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30519A4C3AE00D9B574 /* Foundation.framework */; };
+		4960A30819A4C3AE00D9B574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30719A4C3AE00D9B574 /* CoreGraphics.framework */; };
+		4960A30A19A4C3AE00D9B574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30919A4C3AE00D9B574 /* UIKit.framework */; };
+		4960A31019A4C3AE00D9B574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4960A30E19A4C3AE00D9B574 /* InfoPlist.strings */; };
+		4960A31219A4C3AE00D9B574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31119A4C3AE00D9B574 /* main.m */; };
+		4960A31619A4C3AE00D9B574 /* CPAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31519A4C3AE00D9B574 /* CPAAppDelegate.m */; };
+		4960A31919A4C3AE00D9B574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4960A31719A4C3AE00D9B574 /* Main.storyboard */; };
+		4960A31C19A4C3AE00D9B574 /* CPAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31B19A4C3AE00D9B574 /* CPAFirstViewController.m */; };
+		4960A31F19A4C3AE00D9B574 /* CPASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31E19A4C3AE00D9B574 /* CPASecondViewController.m */; };
+		4960A32119A4C3AE00D9B574 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4960A32019A4C3AE00D9B574 /* Images.xcassets */; };
+		4960A32819A4C3AE00D9B574 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A32719A4C3AE00D9B574 /* XCTest.framework */; };
+		4960A32919A4C3AE00D9B574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30519A4C3AE00D9B574 /* Foundation.framework */; };
+		4960A32A19A4C3AE00D9B574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30919A4C3AE00D9B574 /* UIKit.framework */; };
+		4960A33219A4C3AE00D9B574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4960A33019A4C3AE00D9B574 /* InfoPlist.strings */; };
+		4960A33419A4C3AE00D9B574 /* CarParksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A33319A4C3AE00D9B574 /* CarParksTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4960A32B19A4C3AE00D9B574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4960A2FA19A4C3AE00D9B574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4960A30119A4C3AE00D9B574;
+			remoteInfo = CarParks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4960A30219A4C3AE00D9B574 /* CarParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4960A30519A4C3AE00D9B574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4960A30719A4C3AE00D9B574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4960A30919A4C3AE00D9B574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4960A30D19A4C3AE00D9B574 /* CarParks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarParks-Info.plist"; sourceTree = "<group>"; };
+		4960A30F19A4C3AE00D9B574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4960A31119A4C3AE00D9B574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4960A31319A4C3AE00D9B574 /* CarParks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarParks-Prefix.pch"; sourceTree = "<group>"; };
+		4960A31419A4C3AE00D9B574 /* CPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAAppDelegate.h; sourceTree = "<group>"; };
+		4960A31519A4C3AE00D9B574 /* CPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAAppDelegate.m; sourceTree = "<group>"; };
+		4960A31819A4C3AE00D9B574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4960A31A19A4C3AE00D9B574 /* CPAFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAFirstViewController.h; sourceTree = "<group>"; };
+		4960A31B19A4C3AE00D9B574 /* CPAFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAFirstViewController.m; sourceTree = "<group>"; };
+		4960A31D19A4C3AE00D9B574 /* CPASecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPASecondViewController.h; sourceTree = "<group>"; };
+		4960A31E19A4C3AE00D9B574 /* CPASecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPASecondViewController.m; sourceTree = "<group>"; };
+		4960A32019A4C3AE00D9B574 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4960A32619A4C3AE00D9B574 /* CarParksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarParksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4960A32719A4C3AE00D9B574 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4960A32F19A4C3AE00D9B574 /* CarParksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarParksTests-Info.plist"; sourceTree = "<group>"; };
+		4960A33119A4C3AE00D9B574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4960A33319A4C3AE00D9B574 /* CarParksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarParksTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4960A2FF19A4C3AE00D9B574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960A30819A4C3AE00D9B574 /* CoreGraphics.framework in Frameworks */,
+				4960A30A19A4C3AE00D9B574 /* UIKit.framework in Frameworks */,
+				4960A30619A4C3AE00D9B574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4960A32319A4C3AE00D9B574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960A32819A4C3AE00D9B574 /* XCTest.framework in Frameworks */,
+				4960A32A19A4C3AE00D9B574 /* UIKit.framework in Frameworks */,
+				4960A32919A4C3AE00D9B574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4960A2F919A4C3AE00D9B574 = {
+			isa = PBXGroup;
+			children = (
+				4960A30B19A4C3AE00D9B574 /* CarParks */,
+				4960A32D19A4C3AE00D9B574 /* CarParksTests */,
+				4960A30419A4C3AE00D9B574 /* Frameworks */,
+				4960A30319A4C3AE00D9B574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4960A30319A4C3AE00D9B574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4960A30219A4C3AE00D9B574 /* CarParks.app */,
+				4960A32619A4C3AE00D9B574 /* CarParksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4960A30419A4C3AE00D9B574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4960A30519A4C3AE00D9B574 /* Foundation.framework */,
+				4960A30719A4C3AE00D9B574 /* CoreGraphics.framework */,
+				4960A30919A4C3AE00D9B574 /* UIKit.framework */,
+				4960A32719A4C3AE00D9B574 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4960A30B19A4C3AE00D9B574 /* CarParks */ = {
+			isa = PBXGroup;
+			children = (
+				4960A31419A4C3AE00D9B574 /* CPAAppDelegate.h */,
+				4960A31519A4C3AE00D9B574 /* CPAAppDelegate.m */,
+				4960A31719A4C3AE00D9B574 /* Main.storyboard */,
+				4960A31A19A4C3AE00D9B574 /* CPAFirstViewController.h */,
+				4960A31B19A4C3AE00D9B574 /* CPAFirstViewController.m */,
+				4960A31D19A4C3AE00D9B574 /* CPASecondViewController.h */,
+				4960A31E19A4C3AE00D9B574 /* CPASecondViewController.m */,
+				4960A32019A4C3AE00D9B574 /* Images.xcassets */,
+				4960A30C19A4C3AE00D9B574 /* Supporting Files */,
+			);
+			path = CarParks;
+			sourceTree = "<group>";
+		};
+		4960A30C19A4C3AE00D9B574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4960A30D19A4C3AE00D9B574 /* CarParks-Info.plist */,
+				4960A30E19A4C3AE00D9B574 /* InfoPlist.strings */,
+				4960A31119A4C3AE00D9B574 /* main.m */,
+				4960A31319A4C3AE00D9B574 /* CarParks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4960A32D19A4C3AE00D9B574 /* CarParksTests */ = {
+			isa = PBXGroup;
+			children = (
+				4960A33319A4C3AE00D9B574 /* CarParksTests.m */,
+				4960A32E19A4C3AE00D9B574 /* Supporting Files */,
+			);
+			path = CarParksTests;
+			sourceTree = "<group>";
+		};
+		4960A32E19A4C3AE00D9B574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4960A32F19A4C3AE00D9B574 /* CarParksTests-Info.plist */,
+				4960A33019A4C3AE00D9B574 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4960A30119A4C3AE00D9B574 /* CarParks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4960A33719A4C3AE00D9B574 /* Build configuration list for PBXNativeTarget "CarParks" */;
+			buildPhases = (
+				4960A2FE19A4C3AE00D9B574 /* Sources */,
+				4960A2FF19A4C3AE00D9B574 /* Frameworks */,
+				4960A30019A4C3AE00D9B574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarParks;
+			productName = CarParks;
+			productReference = 4960A30219A4C3AE00D9B574 /* CarParks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4960A32519A4C3AE00D9B574 /* CarParksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4960A33A19A4C3AE00D9B574 /* Build configuration list for PBXNativeTarget "CarParksTests" */;
+			buildPhases = (
+				4960A32219A4C3AE00D9B574 /* Sources */,
+				4960A32319A4C3AE00D9B574 /* Frameworks */,
+				4960A32419A4C3AE00D9B574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4960A32C19A4C3AE00D9B574 /* PBXTargetDependency */,
+			);
+			name = CarParksTests;
+			productName = CarParksTests;
+			productReference = 4960A32619A4C3AE00D9B574 /* CarParksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4960A2FA19A4C3AE00D9B574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CPA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Xoverto;
+				TargetAttributes = {
+					4960A32519A4C3AE00D9B574 = {
+						TestTargetID = 4960A30119A4C3AE00D9B574;
+					};
+				};
+			};
+			buildConfigurationList = 4960A2FD19A4C3AE00D9B574 /* Build configuration list for PBXProject "CarParks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4960A2F919A4C3AE00D9B574;
+			productRefGroup = 4960A30319A4C3AE00D9B574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4960A30119A4C3AE00D9B574 /* CarParks */,
+				4960A32519A4C3AE00D9B574 /* CarParksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4960A30019A4C3AE00D9B574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960A32119A4C3AE00D9B574 /* Images.xcassets in Resources */,
+				4960A31019A4C3AE00D9B574 /* InfoPlist.strings in Resources */,
+				4960A31919A4C3AE00D9B574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4960A32419A4C3AE00D9B574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960A33219A4C3AE00D9B574 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4960A2FE19A4C3AE00D9B574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960A31C19A4C3AE00D9B574 /* CPAFirstViewController.m in Sources */,
+				4960A31219A4C3AE00D9B574 /* main.m in Sources */,
+				4960A31619A4C3AE00D9B574 /* CPAAppDelegate.m in Sources */,
+				4960A31F19A4C3AE00D9B574 /* CPASecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4960A32219A4C3AE00D9B574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960A33419A4C3AE00D9B574 /* CarParksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4960A32C19A4C3AE00D9B574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4960A30119A4C3AE00D9B574 /* CarParks */;
+			targetProxy = 4960A32B19A4C3AE00D9B574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4960A30E19A4C3AE00D9B574 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4960A30F19A4C3AE00D9B574 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4960A31719A4C3AE00D9B574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4960A31819A4C3AE00D9B574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4960A33019A4C3AE00D9B574 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4960A33119A4C3AE00D9B574 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4960A33519A4C3AE00D9B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4960A33619A4C3AE00D9B574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4960A33819A4C3AE00D9B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarParks/CarParks-Prefix.pch";
+				INFOPLIST_FILE = "CarParks/CarParks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4960A33919A4C3AE00D9B574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarParks/CarParks-Prefix.pch";
+				INFOPLIST_FILE = "CarParks/CarParks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4960A33B19A4C3AE00D9B574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarParks.app/CarParks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarParks/CarParks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CarParksTests/CarParksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4960A33C19A4C3AE00D9B574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarParks.app/CarParks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarParks/CarParks-Prefix.pch";
+				INFOPLIST_FILE = "CarParksTests/CarParksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4960A2FD19A4C3AE00D9B574 /* Build configuration list for PBXProject "CarParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4960A33519A4C3AE00D9B574 /* Debug */,
+				4960A33619A4C3AE00D9B574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4960A33719A4C3AE00D9B574 /* Build configuration list for PBXNativeTarget "CarParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4960A33819A4C3AE00D9B574 /* Debug */,
+				4960A33919A4C3AE00D9B574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4960A33A19A4C3AE00D9B574 /* Build configuration list for PBXNativeTarget "CarParksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4960A33B19A4C3AE00D9B574 /* Debug */,
+				4960A33C19A4C3AE00D9B574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4960A2FA19A4C3AE00D9B574 /* Project object */;
+}
