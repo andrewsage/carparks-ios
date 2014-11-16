@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4901058A19B5BF6C00153693 /* CPACarParkDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4901058919B5BF6C00153693 /* CPACarParkDetailsViewController.m */; };
+		4901058B19B5BF6C00153693 /* CPACarParkDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4901058919B5BF6C00153693 /* CPACarParkDetailsViewController.m */; };
+		4951382719A5015E00C9D2B6 /* CPAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4951382619A5015E00C9D2B6 /* CPAMapViewController.m */; };
+		4951382819A5015E00C9D2B6 /* CPAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4951382619A5015E00C9D2B6 /* CPAMapViewController.m */; };
 		4960A30619A4C3AE00D9B574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30519A4C3AE00D9B574 /* Foundation.framework */; };
 		4960A30819A4C3AE00D9B574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30719A4C3AE00D9B574 /* CoreGraphics.framework */; };
 		4960A30A19A4C3AE00D9B574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30919A4C3AE00D9B574 /* UIKit.framework */; };
@@ -14,14 +18,21 @@
 		4960A31219A4C3AE00D9B574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31119A4C3AE00D9B574 /* main.m */; };
 		4960A31619A4C3AE00D9B574 /* CPAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31519A4C3AE00D9B574 /* CPAAppDelegate.m */; };
 		4960A31919A4C3AE00D9B574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4960A31719A4C3AE00D9B574 /* Main.storyboard */; };
-		4960A31C19A4C3AE00D9B574 /* CPAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31B19A4C3AE00D9B574 /* CPAFirstViewController.m */; };
-		4960A31F19A4C3AE00D9B574 /* CPASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A31E19A4C3AE00D9B574 /* CPASecondViewController.m */; };
 		4960A32119A4C3AE00D9B574 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4960A32019A4C3AE00D9B574 /* Images.xcassets */; };
 		4960A32819A4C3AE00D9B574 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A32719A4C3AE00D9B574 /* XCTest.framework */; };
 		4960A32919A4C3AE00D9B574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30519A4C3AE00D9B574 /* Foundation.framework */; };
 		4960A32A19A4C3AE00D9B574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A30919A4C3AE00D9B574 /* UIKit.framework */; };
 		4960A33219A4C3AE00D9B574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4960A33019A4C3AE00D9B574 /* InfoPlist.strings */; };
 		4960A33419A4C3AE00D9B574 /* CarParksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A33319A4C3AE00D9B574 /* CarParksTests.m */; };
+		4960A33E19A4C54500D9B574 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4960A33D19A4C54500D9B574 /* CoreData.framework */; };
+		4960A34119A4C58900D9B574 /* CarPark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4960A33F19A4C58900D9B574 /* CarPark.xcdatamodeld */; };
+		4960A34219A4C58900D9B574 /* CarPark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4960A33F19A4C58900D9B574 /* CarPark.xcdatamodeld */; };
+		4960A34519A4C72F00D9B574 /* CarPark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A34419A4C72F00D9B574 /* CarPark.m */; };
+		4960A34619A4C72F00D9B574 /* CarPark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A34419A4C72F00D9B574 /* CarPark.m */; };
+		4960A34919A4C7DB00D9B574 /* CPACarParksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A34819A4C7DB00D9B574 /* CPACarParksTableViewController.m */; };
+		4960A34A19A4C7DB00D9B574 /* CPACarParksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960A34819A4C7DB00D9B574 /* CPACarParksTableViewController.m */; };
+		499C5BD419D2F38000238F3B /* CPATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499C5BD319D2F38000238F3B /* CPATabBarController.m */; };
+		49A1615119A4D73700A51706 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1615019A4D73700A51706 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4901058819B5BF6C00153693 /* CPACarParkDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPACarParkDetailsViewController.h; sourceTree = "<group>"; };
+		4901058919B5BF6C00153693 /* CPACarParkDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPACarParkDetailsViewController.m; sourceTree = "<group>"; };
+		4951382519A5015E00C9D2B6 /* CPAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAMapViewController.h; sourceTree = "<group>"; };
+		4951382619A5015E00C9D2B6 /* CPAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAMapViewController.m; sourceTree = "<group>"; };
 		4960A30219A4C3AE00D9B574 /* CarParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4960A30519A4C3AE00D9B574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4960A30719A4C3AE00D9B574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +61,22 @@
 		4960A31419A4C3AE00D9B574 /* CPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAAppDelegate.h; sourceTree = "<group>"; };
 		4960A31519A4C3AE00D9B574 /* CPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAAppDelegate.m; sourceTree = "<group>"; };
 		4960A31819A4C3AE00D9B574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4960A31A19A4C3AE00D9B574 /* CPAFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAFirstViewController.h; sourceTree = "<group>"; };
-		4960A31B19A4C3AE00D9B574 /* CPAFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAFirstViewController.m; sourceTree = "<group>"; };
-		4960A31D19A4C3AE00D9B574 /* CPASecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPASecondViewController.h; sourceTree = "<group>"; };
-		4960A31E19A4C3AE00D9B574 /* CPASecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPASecondViewController.m; sourceTree = "<group>"; };
 		4960A32019A4C3AE00D9B574 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4960A32619A4C3AE00D9B574 /* CarParksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarParksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4960A32719A4C3AE00D9B574 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4960A32F19A4C3AE00D9B574 /* CarParksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarParksTests-Info.plist"; sourceTree = "<group>"; };
 		4960A33119A4C3AE00D9B574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4960A33319A4C3AE00D9B574 /* CarParksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarParksTests.m; sourceTree = "<group>"; };
+		4960A33D19A4C54500D9B574 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4960A34019A4C58900D9B574 /* CarPark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarPark.xcdatamodel; sourceTree = "<group>"; };
+		4960A34319A4C72F00D9B574 /* CarPark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarPark.h; sourceTree = "<group>"; };
+		4960A34419A4C72F00D9B574 /* CarPark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarPark.m; sourceTree = "<group>"; };
+		4960A34719A4C7DB00D9B574 /* CPACarParksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPACarParksTableViewController.h; sourceTree = "<group>"; };
+		4960A34819A4C7DB00D9B574 /* CPACarParksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPACarParksTableViewController.m; sourceTree = "<group>"; };
+		499C5BD219D2F38000238F3B /* CPATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPATabBarController.h; sourceTree = "<group>"; };
+		499C5BD319D2F38000238F3B /* CPATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPATabBarController.m; sourceTree = "<group>"; };
+		49A1615019A4D73700A51706 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49D7DA0A19B8C98900C2CE9E /* CarPark 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CarPark 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A1615119A4D73700A51706 /* MapKit.framework in Frameworks */,
+				4960A33E19A4C54500D9B574 /* CoreData.framework in Frameworks */,
 				4960A30819A4C3AE00D9B574 /* CoreGraphics.framework in Frameworks */,
 				4960A30A19A4C3AE00D9B574 /* UIKit.framework in Frameworks */,
 				4960A30619A4C3AE00D9B574 /* Foundation.framework in Frameworks */,
@@ -104,6 +127,8 @@
 		4960A30419A4C3AE00D9B574 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49A1615019A4D73700A51706 /* MapKit.framework */,
+				4960A33D19A4C54500D9B574 /* CoreData.framework */,
 				4960A30519A4C3AE00D9B574 /* Foundation.framework */,
 				4960A30719A4C3AE00D9B574 /* CoreGraphics.framework */,
 				4960A30919A4C3AE00D9B574 /* UIKit.framework */,
@@ -118,12 +143,19 @@
 				4960A31419A4C3AE00D9B574 /* CPAAppDelegate.h */,
 				4960A31519A4C3AE00D9B574 /* CPAAppDelegate.m */,
 				4960A31719A4C3AE00D9B574 /* Main.storyboard */,
-				4960A31A19A4C3AE00D9B574 /* CPAFirstViewController.h */,
-				4960A31B19A4C3AE00D9B574 /* CPAFirstViewController.m */,
-				4960A31D19A4C3AE00D9B574 /* CPASecondViewController.h */,
-				4960A31E19A4C3AE00D9B574 /* CPASecondViewController.m */,
 				4960A32019A4C3AE00D9B574 /* Images.xcassets */,
 				4960A30C19A4C3AE00D9B574 /* Supporting Files */,
+				4960A33F19A4C58900D9B574 /* CarPark.xcdatamodeld */,
+				4960A34319A4C72F00D9B574 /* CarPark.h */,
+				4960A34419A4C72F00D9B574 /* CarPark.m */,
+				4960A34719A4C7DB00D9B574 /* CPACarParksTableViewController.h */,
+				4960A34819A4C7DB00D9B574 /* CPACarParksTableViewController.m */,
+				4951382519A5015E00C9D2B6 /* CPAMapViewController.h */,
+				4951382619A5015E00C9D2B6 /* CPAMapViewController.m */,
+				4901058819B5BF6C00153693 /* CPACarParkDetailsViewController.h */,
+				4901058919B5BF6C00153693 /* CPACarParkDetailsViewController.m */,
+				499C5BD219D2F38000238F3B /* CPATabBarController.h */,
+				499C5BD319D2F38000238F3B /* CPATabBarController.m */,
 			);
 			path = CarParks;
 			sourceTree = "<group>";
@@ -205,6 +237,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Xoverto;
 				TargetAttributes = {
+					4960A30119A4C3AE00D9B574 = {
+						DevelopmentTeam = 33W58W5MZ2;
+					};
 					4960A32519A4C3AE00D9B574 = {
 						TestTargetID = 4960A30119A4C3AE00D9B574;
 					};
@@ -255,10 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4960A31C19A4C3AE00D9B574 /* CPAFirstViewController.m in Sources */,
+				4960A34519A4C72F00D9B574 /* CarPark.m in Sources */,
 				4960A31219A4C3AE00D9B574 /* main.m in Sources */,
+				4960A34119A4C58900D9B574 /* CarPark.xcdatamodeld in Sources */,
+				4901058A19B5BF6C00153693 /* CPACarParkDetailsViewController.m in Sources */,
+				499C5BD419D2F38000238F3B /* CPATabBarController.m in Sources */,
+				4960A34919A4C7DB00D9B574 /* CPACarParksTableViewController.m in Sources */,
+				4951382719A5015E00C9D2B6 /* CPAMapViewController.m in Sources */,
 				4960A31619A4C3AE00D9B574 /* CPAAppDelegate.m in Sources */,
-				4960A31F19A4C3AE00D9B574 /* CPASecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4901058B19B5BF6C00153693 /* CPACarParkDetailsViewController.m in Sources */,
+				4960A34219A4C58900D9B574 /* CarPark.xcdatamodeld in Sources */,
+				4951382819A5015E00C9D2B6 /* CPAMapViewController.m in Sources */,
 				4960A33419A4C3AE00D9B574 /* CarParksTests.m in Sources */,
+				4960A34A19A4C7DB00D9B574 /* CPACarParksTableViewController.m in Sources */,
+				4960A34619A4C72F00D9B574 /* CarPark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +406,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -373,6 +418,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "7826eca8-2d6d-47d1-8add-aac8d1e46599";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -383,10 +429,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarParks/CarParks-Prefix.pch";
 				INFOPLIST_FILE = "CarParks/CarParks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,10 +445,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarParks/CarParks-Prefix.pch";
 				INFOPLIST_FILE = "CarParks/CarParks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +515,7 @@
 				4960A33919A4C3AE00D9B574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4960A33A19A4C3AE00D9B574 /* Build configuration list for PBXNativeTarget "CarParksTests" */ = {
 			isa = XCConfigurationList;
@@ -471,8 +524,23 @@
 				4960A33C19A4C3AE00D9B574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4960A33F19A4C58900D9B574 /* CarPark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49D7DA0A19B8C98900C2CE9E /* CarPark 2.xcdatamodel */,
+				4960A34019A4C58900D9B574 /* CarPark.xcdatamodel */,
+			);
+			currentVersion = 49D7DA0A19B8C98900C2CE9E /* CarPark 2.xcdatamodel */;
+			path = CarPark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4960A2FA19A4C3AE00D9B574 /* Project object */;
 }
